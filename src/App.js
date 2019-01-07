@@ -12,9 +12,8 @@ class App extends Component {
       <div className='splash-container'>
         <img className='logo' src={logo} />
         <div className='info'>
-        Sameeh Khan
-  
-        Full-Stack Developer
+          <div>Sameeh Khan</div>
+          <div>Full-Stack Developer</div>
         </div>
         <div className='links'>
         <a href='https://github.com/sameehkhan'><img className='git' src={git}/></a>
