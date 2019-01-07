@@ -23,5 +23,10 @@
 .info{
   display: flex;
   justify-content: center;
+  flex-direction: column;
+}
 
+.name, .developer {
+  display:flex;
+  justify-content: center;
 }

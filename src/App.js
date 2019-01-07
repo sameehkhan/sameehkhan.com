@@ -11,10 +11,10 @@ class App extends Component {
     return (
       <div className='page-container'>
         <div className='splash-container'>
-          <div><img className='logo' src={logo} /></div>
+          <div className='logo-div'><img className='logo' src={logo} /></div>
           <div className='info'>
-            <div>Sameeh Khan</div>
-            <div>Full-Stack Developer</div>
+            <div className='name'><div>Sameeh Khan</div></div>
+            <div className='developer'><div>Full-Stack Developer</div></div>
           </div>
           <div className='links'>
             <div><a href='https://github.com/sameehkhan'><img className='git' src={git} /></a></div>
