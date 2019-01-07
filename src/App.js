@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-const logo = require('./SK.png');
+const logo = require('../images/SK.png');
 
 
 
