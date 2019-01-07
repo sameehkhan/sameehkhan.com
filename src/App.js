@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div className='page-container'>
         <div className='splash-container'>
-          <img className='logo' src={logo} />
+          <div><img className='logo' src={logo} /></div>
           <div className='info'>
             <div>Sameeh Khan</div>
             <div>Full-Stack Developer</div>
