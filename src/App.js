@@ -17,9 +17,9 @@ class App extends Component {
           <div className='info'>
             <div className='name'><div>Sameeh Khan</div></div>
             <div className='developer'><div>Full-Stack Developer</div></div>
-            <div className='developer'><div>Site in-progress</div></div>
 
-            <div className='spinner'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="64" height="64" fill="black">
+            <div className='spinner'>
+              <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="64" height="64" fill="black">
               <circle cx="16" cy="3" r="0">
                 <animate attributeName="r" values="0;3;0;0" dur="1s" repeatCount="indefinite" begin="0" keySplines="0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8" calcMode="spline" />
               </circle>
@@ -49,7 +49,8 @@ class App extends Component {
               </circle>
             </svg>
             </div>
-
+          </div>
+            <div className='progress'><div>Site in Progress</div></div>
           </div>
           <div className='links'>
             <div><a href='https://github.com/sameehkhan' className='link-tag'><img className='git' src={git} /></a></div>

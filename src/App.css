@@ -74,12 +74,19 @@ html{
   flex-direction: column;
 }
 
-.name, .developer {
+.name, .developer, .progress {
   display: flex;
   justify-content: center;
 }
 
+
 .logo-div{
+  display: flex;
+  justify-content: center;
+}
+
+.spinner{
+
   display: flex;
   justify-content: center;
 }
