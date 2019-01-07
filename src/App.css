@@ -28,6 +28,10 @@ html{
   justify-content: space-between;
 }
 
+.loading{
+  height: 100px;
+  width: 100px;
+}
 
 .git, .linkedin{
   -webkit-transform: perspective(1px) translateZ(0);
