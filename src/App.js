@@ -16,8 +16,10 @@ class App extends Component {
   
         Full-Stack Developer
         </div>
+        <div className='links'>
         <a href='https://github.com/sameehkhan'><img className='git' src={git}/></a>
         <a href='https://www.linkedin.com/in/sameeh-khan-877657b4/'><img className='linkedin' src={linkedin}/></a>
+        </div>
       </div>
     );
   }
