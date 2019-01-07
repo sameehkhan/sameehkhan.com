@@ -14,7 +14,7 @@ class App extends Component {
 
         Full-Stack Developer
 
-        <img src={logo} />
+        <img className='logo' src={logo} />
         <img src={git} />
         <img src={linkedin} />
       </div>
