@@ -79,6 +79,12 @@ html{
   justify-content: center;
 }
 
+.progress {
+  margin-top: 20px;
+  font-size: 20px;
+  margin-bottom: 40px;
+  font-weight: 500;
+}
 
 .logo-div{
   display: flex;
@@ -86,7 +92,7 @@ html{
 }
 
 .spinner{
-
+  margin-top: 60px;
   display: flex;
   justify-content: center;
 }
